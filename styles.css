@@ -1,0 +1,73 @@
+:root {
+    --nord0: #2E3440;
+    --nord1: #3B4252;
+    --nord2: #434C5E;
+    --nord3: #4C566A;
+    --nord4: #D8DEE9;
+    --nord5: #E5E9F0;
+    --nord6: #ECEFF4;
+    --nord7: #8FBCBB;
+    --nord8: #88C0D0;
+    --nord9: #81A1C1;
+    --nord10: #5E81AC;
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCB8B;
+    --nord14: #A3BE8C;
+    --nord15: #B48EAD;
+    --font: "Roboto", "Arial", sans-serif;
+}
+
+/*
+* {outline: 1px solid black;}
+*/
+
+body {
+    font-family: var(--font);
+    color: var(--nord12);
+}
+
+header, section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: var(--nord13);
+    color: rgb(8, 5, 0);
+}
+
+article{
+    width: 60%;
+}
+
+aside{
+    margin-left: 150px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-right: 16px;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: rgb(180, 127, 27);
+}
+
+progress {
+    margin-left: 8px;
+}
+
+.flex {
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+progress, ::-webkit-progress-value{
+    color: #D08770;
+}
