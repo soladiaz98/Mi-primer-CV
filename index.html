@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi curriculum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="flex">
+        <img src="foto.jpeg" alt="Foto carnet">
+        <div>
+            <h1>Sol Agustina Diaz</h1>
+            <p>Linkedin: <a href="https://www.linkedin.com/in/sol-agustina-díaz-aa3b37223/">@Sol Diaz</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/solagustinadiaz/">@Sol-Instagram</a></p>
+        </div>
+    </header>
+    <section class="flex">
+        <article>
+            <h2>Información Profesional</h2>
+            <ul>
+                <li>
+                    <h4>Analista de datos Junior en <i>Montemar Compañia Financiera SA</i><br></h4>
+                    <time>Actualmente</time>
+                       <p id="demo" style="display:none;">Analista de datos en sector producto e innovación</p>
+                      <button type="button" onclick="document.getElementById('demo').style.display='block'">Tareas</button> 
+                    
+                    <h4>Temporada Escolar 2019 y 2020 <i>Feria Escolar de Libro</i><br></h4>
+                        <p id="demo1" style="display:none;">Atención al publico, manejo y cierre de caja</p>
+                       <button type="button" onclick="document.getElementById('demo1').style.display='block'">Tareas</button> 
+                    
+                    <h4>Ayudante de Contador en <i>Honorable Tribunal de cuentas-Pasantia</i><br></h4>
+                        <p id="demo2" style="display:none;">Control de conciliaciones, carga de datos al sistema, liquidación de sueldos y archivo</p>
+                       <button type="button" onclick="document.getElementById('demo2').style.display='block'">Tareas</button> 
+                    
+                </li>
+            </ul>
+        </article>
+        <aside>
+            <h2>Información Académica</h2>
+            <ul>
+                <li>
+                    <p>Bachillerato en Economía y Administración en <i>Escuela de Comercio Martín Zapata</i><br>
+                       <b>Año de egreso</b>
+                       <time datetime="2012-11">Año 2015</time>
+                    </p>
+
+                    <p>Carrera de Contador Publico Nacional en <i>Facultad de Ciencias Económicas-UNCuyo</i><br>
+                        <b>Desde</b>
+                        <time datetime="2016-02">Año 2016</time>
+                        <b>Hasta:</b>
+                        <time>Actualmente</time>
+                    </p>
+                </li>
+            </ul>
+            <hr>
+            <h2>Conocimientos</h2>
+            <div>
+                <li>
+                <p>HTML y CSS</p>
+                <progress value="40" max="100"></progress>
+                <p>Javascript</p>
+                <progress value="10" max="100"></progress>
+                <p>Excel</p>
+                <progress value="80" max="100"></progress>
+                </li>
+            </div>
+        </aside>
+    </section>
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)"
+    style="background-color:#EBCB8B;width:auto;height:20px;padding:20px;" class="flex">ver mi Perfil</div>
+    <script src="aplicación.js"></script>
+</body>
+</html>
